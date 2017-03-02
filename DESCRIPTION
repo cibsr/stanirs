@@ -1,0 +1,31 @@
+Package: stanirs
+Title: Working with fNIRS Files
+Description: Working with fNIRS files in Stanford's Center for Interdisciplinary Brain Sciences.
+Version: 0.0.1.9000
+Date: 2017-03-02
+Authors@R: c(person("Andrey", "Koval", role = c("aut", "cre"), email =
+    "koval.andrey@gmail.com"), person("Will", "Beasley", role = c("ctb")))
+Author: Andrey Koval [aut, cre],
+    Will Beasley [ctb]
+Maintainer: Andrey Koval <koval.andrey@gmail.com>
+URL: https://github.com/cibsr/stanirs, https://nirs.stanford.edu/
+BugReports: https://github.com/cibsr/stanirs/issues
+Depends:
+    R(>= 3.0.0),
+    stats
+Imports:
+    dplyr,
+    methods,
+    magrittr,
+    readr,
+    tidyr,
+    tibble
+Suggests:
+    devtools,
+    knitr,
+    rmarkdown,
+    testthat (>= 0.9)
+License: MIT + file LICENSE
+LazyData: TRUE
+RoxygenNote: 6.0.1
+Roxygen: list(markdown = TRUE)
